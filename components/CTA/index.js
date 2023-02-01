@@ -5,7 +5,7 @@ import { Images } from '@/public/assests/images/images'
 
 export default function CTA() {
     return (
-        <div className='bg-white pt-24 mt-16 w-full overflow-x-clip'>
+        <div className='bg-white md:pt-24 md:mt-16 w-full overflow-x-clip'>
 
             <div className={styles.cta_wrapper}>
                 <div className={styles.cta_containor}>

@@ -1,16 +1,16 @@
 .cta_wrapper{
-    @apply flex w-full bg-background_primary relative py-16;
+    @apply flex w-full bg-background_primary relative md:py-16 py-8;
     .cta_containor{
-        @apply flex w-[20%] mx-auto justify-center;
+        @apply flex md:w-[20%] w-[40%] mx-auto justify-center;
         .gplay{
             @apply flex mx-4 ;
             .img{
-                @apply w-[70%];
+                @apply md:w-[70%] w-full;
             }
            
         }
         .mobile_pic{
-            @apply flex absolute right-0 top-[-8rem];
+            @apply md:flex hidden absolute right-0 top-[-8rem];
             .img{
                 @apply w-[85%]
             }

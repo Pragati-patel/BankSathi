@@ -1,11 +1,11 @@
 .footer_wrapper {
-    @apply sm:flex hidden w-full bg-background_secondary py-16 text-white relative z-20;
+    @apply flex w-full bg-background_secondary py-16 text-white relative z-20;
 
     .footer_containor {
-        @apply flex w-[80%] mx-auto;
+        @apply flex md:w-[80%] w-[90%] mx-auto md:flex-row flex-col;
 
         .first_col {
-            @apply flex flex-col w-[40%] pr-8 font-medium;
+            @apply flex flex-col md:w-[40%] w-full pr-8 font-medium;
 
             .detail {
                 @apply leading-[30px] text-base my-8 text-justify pr-4;
@@ -21,7 +21,7 @@
         }
 
         .second_col {
-            @apply flex flex-col w-[20%] font-medium mx-2;
+            @apply flex flex-col md:w-[20%] w-full font-medium mx-2 md:mt-0 mt-4;
 
             .heading {
                 @apply text-[32px] leading-[34px] text-lg font-bold
@@ -36,7 +36,7 @@
         }
 
         .third_col {
-            @apply flex flex-col w-[40%] font-medium pl-4;
+            @apply flex flex-col md:w-[40%] w-full font-medium pl-4 md:mt-0 mt-4;
             .heading {
                 @apply text-[32px] leading-[34px] text-lg font-bold;
             }
