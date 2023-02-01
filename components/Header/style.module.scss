@@ -9,7 +9,7 @@
             @apply flex w-1/2;
 
             .logo_wrap {
-                @apply flex md:w-[25%] w-[40%] mr-16 cursor-pointer;
+                @apply flex md:w-[25%] sm:w-[40%] w-[50%] mr-16 cursor-pointer;
             }
 
             .menu_items_wrap {
