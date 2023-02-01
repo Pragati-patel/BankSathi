@@ -1,0 +1,118 @@
+{
+    "hero_section": {
+        "heading": "Become a financial advisor and start selling online",
+        "sub_heading": "Start Your Business with Zero Investment and Earn over ₹1,00,000 Every Month. Provide financial advice and products to the customers and get a fast payout every month.",
+        "button": "DOWNLOAD APP NOW"
+    },
+    "feature_row": {
+        "heading": "Featured In"
+    },
+    "product_offered": {
+        "heading": "Products Offered to Your Customers",
+        "first": {
+            "heading": "EMI Cards",
+            "sub_heading": "Offer a variety of EMI cards from top banks, help your customer convert all their purchases into easy EMIs."
+        },
+        "second": {
+            "heading": "Credits Cards",
+            "sub_heading": "Make your customers pamper their lifestyle choices with the suitable credit cards. Offer a variety of credit cards from the top banks."
+        },
+        "third": {
+            "heading": "Saving Account",
+            "sub_heading": "Provide zero balance savings accounts to your customers and help them earn more on their savings."
+        }
+    },
+    "advisor": {
+        "heading": "Who Can Become a BankSathi Advisor",
+        "card_1": {
+            "heading": "Loan Agents",
+            "detail": "Well informed about all types of loans, use your knowledge and advise people on the best options."
+        },
+        "card_2": {
+            "heading": "Insurance Advisors",
+            "detail": "Use your strong network of professionals and personal people and start sourcing for all financial products."
+        },
+        "card_3": {
+            "heading": "Ex Bankers",
+            "detail": "You are someone who is up-to-date with the banking market trends, help people to finance their dreams"
+        },
+        "card_4": {
+            "heading": "Wealth Advisors",
+            "detail": "You are a qualified professional who deals with the investment needs of affluent clients. Help people meet their financial goals."
+        },
+        "card_5": {
+            "heading": "BFSI Professionals",
+            "detail": "Working as a finance professional, use your skills and provide a range of such financial products or services."
+        }
+    },
+    "four_steps": {
+        "step_1": {
+            "heading": "Become a BankSathi Advisor",
+            "detail": "Register yourself and become a certified BankSathi advisor. Get training to understand financial products and services better."
+        },
+        "step_2": {
+            "heading": "Share Leads and start Earning",
+            "detail": "Upload your lead’s details in the app and sell financial products to them at most suitable rates."
+        },
+        "step_3": {
+            "heading": "Invite More Customers",
+            "detail": "Share social cards and other marketing content to create more leads."
+        },
+        "step_4": {
+            "heading": "Refer and Earn More Income",
+            "detail": "Refer the BankSathi app to your friends, create a team and earn upto 10% of their income."
+        }
+    },
+    "benefits": {
+        "heading": "Benefits of Joining BankSathi",
+        "card_1": {
+            "heading": "Zero Investment",
+            "detail": "Invest nothing, start your own business on your finger tips."
+        },
+        "card_2": {
+            "heading": "Timely Payout",
+            "detail": "Get your payout credited in your account under minimum time."
+        },
+        "card_3": {
+            "heading": "Earn Unlimited Money",
+            "detail": "Earn an attractive amount of money on each financial product you sell."
+        },
+        "card_4": {
+            "heading": "Earnings for lifetime",
+            "detail": "There’s no retirement. Create customers once and earn on their transactions for a long run."
+        },
+        "card_5": {
+            "heading": "Wide Range of Products",
+            "detail": "Understand and sell an array of financial products to your customers."
+        },
+        "card_6": {
+            "heading": "Training and Guidance",
+            "detail": "Our dedicated training and sales team will provide assistance at every step to achieve your goals."
+        }
+    },
+    "recognition": {
+        "heading": "Recognition in"
+    },
+    "footer": {
+        "first_col": "Start Your Business with Zero Investment and Earn over ₹1,00,000 Every Month. Provide financial advice and products to the customers and get a fast payout every month.",
+        "third_col": "First Floor, Plot No 3/1, Attic Smart Square Complex, Above 3M Care Care & LBB, 100 Feet Rd, Binnamangala, Stage 1, Indiranagar, Bengaluru, Karnataka - 560038, India"
+    },
+    "copyright1": "All Right Reserved @",
+    "copyright2": " | Copyright @ 2021",
+    "faq": {
+        "que_1": "What is the eligibility criteria to become a Banksathi Advisor?",
+        "ans_1": "Becoming a BankSathi advisor knows no limits. From a housewife to a student or from a retiree to someone already from a financial background, anyone who wishes to earn extra income without making any investment can become an Advisor.",
+        "que_2": "What documents do I need to register on Banksathi?",
+        "ans_2": "We need minimal documentation from your side and that includes : Aadhar Card | PAN Card | Cancelled Cheque | A Photograph",
+        "que_3": "How will I earn via Banksathi?",
+        "ans_3": "You will earn money in just a matter of lead conversion. Once you have sold the financial product to your customer, the payout will be credited to your account in the minimum time.",
+        "que_4": "Are there any Registration & Other Charges for joining Banksathi?",
+        "ans_4": "Absolutely not. Earning with BankSahi is free of any registration/ Hidden/ Annual charges.",
+        "que_5": "How will I receive my earnings?",
+        "ans_5": "The payout will be credited to your bank account.",
+        "que_6": "When can I start selling financial products?",
+        "ans_6": "All it takes is getting yourself registered before you start with your business. Once you are successfully registered as a BankSathi advisor, you can start selling financial products to the customers.",
+        "que_7": "What is the referral amount for BankSathi?",
+        "ans_7": "When your friends sign up on the BankSathi app using your referral code, you earn a referral amount of 10% of their earnings."
+    }
+}

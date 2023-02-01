@@ -1,0 +1,42 @@
+.advisor_wrapper {
+    @apply flex w-full;
+
+    .advisor_containor {
+        @apply flex w-[80%] mx-auto justify-center flex-col items-center;
+
+        .heading {
+            @apply flex justify-center lg:text-[2rem] md:text-2xl sm:text-xl text-2xl font-bold mb-6;
+        }
+
+        .line {
+            @apply w-[10%] border-b-2 border-secondary mb-4;
+        }
+
+        .advisor_card_wrapper {
+            @apply flex flex-wrap justify-center;
+
+            .card {
+                @apply flex flex-col bg-background_primary p-6 px-8 justify-center items-center lg:w-[31%] md:w-[45%] sm:w-[75%] w-[90%] my-4 mx-3 rounded-[18px] pb-24;
+                transition: all 0.3s;
+                .card_logo {
+                    @apply flex w-[20%];
+
+                }
+
+                .card_heading {
+                    @apply flex text-lg font-semibold text-primary hover:text-[#000064] py-2;
+
+                }
+
+                .card_detail {
+                    @apply flex text-base text-primary leading-[29px] text-center;
+
+                }
+
+            }
+            .card:hover{
+                box-shadow: 0px 0px 31px 0px #cecece;
+            }
+        }
+    }
+}

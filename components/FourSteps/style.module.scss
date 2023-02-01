@@ -1,0 +1,50 @@
+.fourstep_wrapper {
+    @apply flex w-full flex-col py-20 items-center;
+
+    .fourstep_container {
+        @apply flex w-[80%] mx-auto md:flex-row flex-col items-center md:items-start;
+
+        .fourstep_img {
+            @apply flex w-[60%] py-4 justify-center items-center;
+        }
+        .second{
+            @apply flex justify-center;
+        }
+
+        .fourstep_steps_design {
+            @apply flex w-[30%] flex-col items-center;
+
+            .circle {
+                @apply flex lg:w-[90px] sm:w-[80px] lg:h-[90px] sm:h-[80px] w-[60px] h-[60px] text-[39px];
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                background: #a882dd;
+                border-radius: 50%;
+                border: 1px solid #a882dd;
+            }
+
+            .line {
+                @apply sm:w-[45px] w-[30px] h-[70px];
+                border-right: 1px solid #a882dd;
+            }
+        }
+
+        .fourstep_details {
+            @apply flex flex-col w-[60%] py-4;
+
+            .heading {
+                @apply lg:text-[24px] md:text-xl sm:text-lg text-base font-semibold text-primary hover:text-secondary;
+            }
+
+            .detail {
+                @apply md:text-base text-sm leading-[29px] sm:pb-8 pb-4 sm:pt-4;
+            }
+        }
+    }
+
+    .four_step_btn {
+        @apply w-fit py-4 px-8 bg-secondary text-white border-2 border-transparent hover:text-primary hover:border-secondary hover:bg-white rounded-[30px] font-semibold text-base mt-8;
+    }
+}

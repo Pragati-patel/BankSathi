@@ -1,0 +1,27 @@
+.hero_section_main_wrapper {
+    @apply flex w-full py-20 pt-40 bg-[#49d49d10];
+
+    .hero_section_wrap {
+        @apply flex w-[80%] mx-auto sm:flex-row flex-col;
+
+        .hero_section_left_part {
+            @apply flex sm:w-[40%] w-[80%] mx-auto;
+        }
+
+        .hero_section_right_part {
+            @apply flex flex-col sm:w-[60%] w-[80%] justify-center mx-auto;
+
+            .hero_section_heading {
+                @apply flex font-bold lg:text-[43px] md:text-[32px] sm:text-[25px] text-[27px] text-primary pt-2;
+            }
+
+            .hero_section_subheading {
+                @apply font-[500] text-base text-primary py-2 leading-8;
+            }
+
+            .hero_btn {
+                @apply flex font-bold py-3 px-6 text-base bg-secondary text-white hover:text-[#333] hover:bg-white border border-transparent hover:border-secondary rounded-[30px] w-fit items-center justify-center mt-4;
+            }
+        }
+    }
+}

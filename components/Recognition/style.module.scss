@@ -1,0 +1,15 @@
+.reco_wrapper{
+    @apply flex flex-col w-full py-8;
+    .reco_containor{
+        @apply flex flex-col sm:w-[80%] w-[90%] mx-auto items-center;
+        .heading{
+            @apply flex font-bold lg:text-[2rem] md:text-2xl sm:text-xl text-2xl my-8;
+        }
+        .img_row{
+            @apply flex  sm:p-4 bg-white justify-between;
+            .logo{
+                @apply mx-2 border border-['#f3e6e1'] px-4 py-2 sm:w-[23%] w-[35%];
+            }
+        }
+    }
+}

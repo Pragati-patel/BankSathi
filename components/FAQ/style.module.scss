@@ -1,0 +1,30 @@
+.faq_wrapper {
+    @apply flex w-full py-16 overflow-hidden;
+
+    .faq_conatinor {
+        @apply flex flex-col w-[80%] mx-auto;
+
+       
+    }
+}
+
+.que_ans_wrap {
+    @apply flex flex-col border-b border-[#bdbdbd] py-6 cursor-pointer;
+
+    .que_row {
+        @apply flex justify-between items-center;
+
+        .question {
+            @apply flex md:text-[19px] sm:text-base text-sm font-semibold text-background_secondary;
+        }
+    }
+
+    .ans_row {
+        @apply flex ;
+
+        .answer {
+            @apply flex md:text-base sm:text-sm text-xs leading-[29px] py-4;
+            padding-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.feature_row_wrapper{
+    @apply flex flex-col w-full py-20;
+    .feature_row_heading{
+        @apply flex justify-center text-[2rem] font-bold;
+    }
+    .feature_row_containor{
+        @apply flex sm:w-[80%] mx-auto justify-between my-8;
+        .feature_logo{
+            @apply flex bg-background_primary rounded-[18px] p-2 sm:w-[18%] mx-2 sm:mx-0;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.products_offered_wrapper {
+    @apply flex w-full;
+
+    .products_offered_containor {
+        @apply flex w-[80%] mx-auto flex-col justify-center items-center;
+
+        .heading {
+            @apply flex justify-center lg:text-[2rem] md:text-2xl sm:text-xl text-2xl font-bold mb-6;
+        }
+
+        .line {
+            @apply w-[10%] border-b-2 border-secondary mb-4;
+        }
+
+        .carousel_wrapper {
+
+            @apply flex w-full flex-col;
+
+            // .products_offered_carousel {
+            @apply flex my-8 w-full;
+
+            .carousel_info_box {
+                @apply flex flex-col items-center mx-6;
+
+                .logo {
+                    @apply flex w-[20%];
+                }
+
+                .heading {
+                    @apply flex lg:text-[25px] md:text-[20px] sm:text-base text-base text-center font-semibold text-primary pt-4;
+
+                }
+
+                .subheading {
+                    @apply flex lg:text-base text-sm leading-[29px] text-center;
+                }
+
+            }
+
+            // }
+        }
+    }
+
+
+}

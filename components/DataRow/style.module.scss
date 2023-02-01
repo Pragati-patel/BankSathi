@@ -1,0 +1,34 @@
+.data_row_wrapper {
+    @apply flex w-full bg-[#49d49d20];
+
+    .data_row_containor {
+        @apply flex w-[80%] mx-auto py-16 flex-wrap ;
+
+        .data_box {
+
+            @apply flex  w-full flex-wrap sm:flex-row flex-col items-center justify-center;
+
+            .data_wrap {
+                @apply flex justify-center lg:w-[25%] md:w-[30%] sm:w-[40%] w-[50%] my-2;
+
+                .data_logo {
+                    @apply flex md:w-[12%] sm:w-[10%] w-[10%];
+
+                }
+
+                .box_info {
+                    @apply flex flex-col pl-6;
+
+                    .box_number {
+                        @apply text-third_color lg:text-[23px] md:text-[18px] text-base font-semibold ;
+                    }
+
+                    .box_heading {
+                        @apply text-primary lg:text-base md:text-sm text-xs font-medium uppercase;
+                    }
+
+                }
+            }
+        }
+    }
+}
