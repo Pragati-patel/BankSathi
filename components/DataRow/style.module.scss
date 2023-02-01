@@ -6,7 +6,7 @@
 
         .data_box {
 
-            @apply flex  w-full flex-wrap sm:flex-row flex-col items-center justify-center;
+            @apply flex  w-full flex-wrap sm:flex-row flex-col items-center;
 
             .data_wrap {
                 @apply flex justify-center lg:w-[25%] md:w-[30%] sm:w-[40%] w-[50%] my-2;

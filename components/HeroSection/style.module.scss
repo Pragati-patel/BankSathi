@@ -5,7 +5,7 @@
         @apply flex w-[80%] mx-auto sm:flex-row flex-col;
 
         .hero_section_left_part {
-            @apply flex sm:w-[40%] w-[80%] mx-auto;
+            @apply flex sm:w-[40%] md:w-[55%] w-[80%] mx-auto;
         }
 
         .hero_section_right_part {
