@@ -18,8 +18,8 @@ export default function Recognition() {
                 <p className={styles.heading}>{strings.recognition.heading}</p>
                 <div className={styles.img_row}>
                     {ImagesData.map((img, index) => {
-                        return (<div className={styles.logo}>
-                            <Image src={img} key={index}  />
+                        return (<div className={styles.logo} key={index.toString()}  >
+                            <Image src={img} />
                         </div>
                         )
                     })}

@@ -16,11 +16,11 @@ export default function Footer() {
         "Refund & cancellation policy",
     ]
     const SocialIcons = [
-        <FaFacebookF color={'#14363d'} size={'1.3rem'} />,
-        <FaInstagram color={'#14363d'} size={'1.3rem'} />,
-        <FaYoutube color={'#14363d'}  size={'1.3rem'}/>,
-        <FaLinkedinIn color={'#14363d'} size={'1.3rem'} />,
-        <FaTwitter color={'#14363d'} size={'1.3rem'} />,
+        <FaFacebookF color={'#14363d'} size={'1.3rem'}  key={1}/>,
+        <FaInstagram color={'#14363d'} size={'1.3rem'}  key={2}/>,
+        <FaYoutube color={'#14363d'}  size={'1.3rem'} key={3}/>,
+        <FaLinkedinIn color={'#14363d'} size={'1.3rem'} key={4} />,
+        <FaTwitter color={'#14363d'} size={'1.3rem'}  key={5}/>,
 
     ]
     return (
@@ -32,18 +32,18 @@ export default function Footer() {
                     <div className={styles.icon_wrap}>
                         {SocialIcons?.map((icon, index) => {
                             return (
-                                <div key={index} className={styles.circle_icon}>{icon}</div>
+                                <div key={index.toString()} className={styles.circle_icon}>{icon}</div>
                             )
                         })}
 
                     </div>
-                    
+
                 </div>
                 <div className={styles.second_col}>
                     <p className={styles.heading}> Important Links :</p>
                     <div className={styles.links_wrap}>
                         {ImportantLinks.map((link, index) => {
-                            return (<li className={styles.item} key={index}><RiArrowRightSFill className='mr-2' />{link}</li>)
+                            return (<li className={styles.item} key={index.toString()}><RiArrowRightSFill className='mr-2' />{link}</li>)
                         })}
                     </div>
                 </div>

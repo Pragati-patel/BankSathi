@@ -18,7 +18,7 @@ export default function Header() {
                             <Image src={Images.logo} alt='logo' />
                         </div>
                         <div className={styles.menu_items_wrap}>
-                            {menu.map((item) => { return <li className={styles.menu_item}>{item.name}</li> })}
+                            {menu.map((item,index) => { return <li className={styles.menu_item} key={index.toString()}>{item.name}</li> })}
 
                         </div>
 
@@ -43,7 +43,7 @@ export default function Header() {
             {open ?
                 <div className='flex relative  w-screen h-screen bg-white z-10 top-[-4rem]  justify-between px-16 py-8'>
                     <div className='flex flex-col ' >
-                        {ResponsiveMenu.map((item) => { return <li className='flex flex-col text-[15px] font-semibold text-[#555555] pb-2'>{item}</li> })}
+                        {ResponsiveMenu.map((item,index) => { return <li key={index.toString()} className='flex flex-col text-[15px] font-semibold text-[#555555] pb-2'>{item}</li> })}
                     </div>
                     <div onClick={() => setOpen(false)} className='p-1 bg-secondary w-fit h-fit flex'>
                         <RiCloseFill color={"#fff"} size={'1.5rem'} />

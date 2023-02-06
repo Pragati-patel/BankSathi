@@ -13,7 +13,7 @@ export default function Advisor({ arr, heading }) {
                 <div className={styles.advisor_card_wrapper}>
                     {arr.map((card, index) => {
                         return (
-                            <div className={styles.card} key={index}>
+                            <div className={styles.card} key={index.toString()}>
                                 <Image src={card.logo} className={styles.card_logo} alt={index} />
                                 <p className={styles.card_heading}>{card.heading}</p>
                                 <p className={styles.card_detail}>{card.detail}</p>

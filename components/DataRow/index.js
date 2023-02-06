@@ -6,10 +6,10 @@ import { FaUserAlt, FaMapMarkerAlt, FaGlobeAsia, FaRupeeSign } from 'react-icons
 
 export default function DataRow() {
     const Data = [
-        { logo: <FaUserAlt size={'2.5rem'} color='#14363d'/>, number: '1000000 ', heading_1: "ADVISORS ", heading_2:"COMMUNITY" },
-        { logo: <FaMapMarkerAlt  size={'2.5rem'} color='#14363d'/>, number: '18000 ', heading_1: "PINCODE ", heading_2:"COVERED" },
-        { logo: <FaGlobeAsia size={'2.5rem'} color='#14363d' />, number: '750 ', heading_1: `CITIES `, heading_2:"COVERED" },
-        { logo: <FaRupeeSign size={'2.5rem'} color='#14363d' />, number: '50 ', heading_1: "ADVISORS ", heading_2:"INCOME" },
+        { logo: <FaUserAlt size={'2.5rem'} color='#14363d' key={1}/>, number: '1000000 ', heading_1: "ADVISORS ", heading_2:"COMMUNITY" },
+        { logo: <FaMapMarkerAlt  size={'2.5rem'} color='#14363d' key={2}/>, number: '18000 ', heading_1: "PINCODE ", heading_2:"COVERED" },
+        { logo: <FaGlobeAsia size={'2.5rem'} color='#14363d' key={3} />, number: '750 ', heading_1: `CITIES `, heading_2:"COVERED" },
+        { logo: <FaRupeeSign size={'2.5rem'} color='#14363d' key={4} />, number: '50 ', heading_1: "ADVISORS ", heading_2:"INCOME" },
     ]
     return (
         <div className={styles.data_row_wrapper}>
@@ -17,7 +17,7 @@ export default function DataRow() {
                 <div className={styles.data_box}>
                     {Data.map((items, index) => {
                         return (
-                            <div className={styles.data_wrap} key={index}>
+                            <div className={styles.data_wrap} key={index.toString()}>
                                 <div className={styles.data_logo}>
                                     {items.logo}
                                 </div>

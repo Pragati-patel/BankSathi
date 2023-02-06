@@ -45,7 +45,7 @@ export default function ProductsOffered() {
                     >
                         {Offers.map((offer, index) => {
                             return (
-                                <div className={styles.carousel_info_box} key={index}>
+                                <div className={styles.carousel_info_box} key={index.toString()}>
                                     <Image src={offer.logo} className={styles.logo} alt={index}/>
                                     <p className={styles.heading}>{offer.heading}</p>
                                     <p className={styles.subheading}>{offer.subheading}</p>

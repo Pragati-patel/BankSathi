@@ -23,7 +23,7 @@ export default function FourSteps() {
                         {
                             [<FaRupeeSign color={'#fffff'} />, <IoPeople color={'#fffff'} />, <FaRupeeSign color={'#fffff'} />, <FaRupeeSign color={'#fffff'} />].map((item, index) => {
                                 return (
-                                    <div className='flex flex-col ' key={index}>
+                                    <div className='flex flex-col ' key={index.toString()}>
                                         <div className={styles.circle}>{item}</div>
                                         {(index !== 3) ? <div className={styles.line}></div> : ""}
 
@@ -35,7 +35,7 @@ export default function FourSteps() {
                     <div className={styles.fourstep_details}>
                         {Steps.map((step, index) => {
                             return (
-                                <div className='flex flex-col ' key={index} m>
+                                <div className='flex flex-col ' key={index.toString()} m>
                                     <p className={styles.heading}>{step.heading}</p>
                                     <p className={styles.detail}>{step.detail}</p>
                                 </div>
