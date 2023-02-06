@@ -14,7 +14,7 @@ export default function Advisor({ arr, heading }) {
                     {arr.map((card, index) => {
                         return (
                             <div className={styles.card} key={index.toString()}>
-                                <Image src={card.logo} className={styles.card_logo} alt={index} />
+                                <Image src={card.logo} className={styles.card_logo} alt={index.toString()} />
                                 <p className={styles.card_heading}>{card.heading}</p>
                                 <p className={styles.card_detail}>{card.detail}</p>
                             </div>

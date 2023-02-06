@@ -21,7 +21,7 @@ export default function FourSteps() {
                 <div className={styles.second}>
                     <div className={styles.fourstep_steps_design}>
                         {
-                            [<FaRupeeSign color={'#fffff'} />, <IoPeople color={'#fffff'} />, <FaRupeeSign color={'#fffff'} />, <FaRupeeSign color={'#fffff'} />].map((item, index) => {
+                            [<FaRupeeSign color={'#fffff'} key={1}/>, <IoPeople color={'#fffff'} key={2} />, <FaRupeeSign color={'#fffff'} key={3}/>, <FaRupeeSign color={'#fffff'} key={4} />].map((item, index) => {
                                 return (
                                     <div className='flex flex-col ' key={index.toString()}>
                                         <div className={styles.circle}>{item}</div>

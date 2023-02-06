@@ -19,7 +19,7 @@ export default function FeaturedRow() {
                 {Logos.map((logo, index) => {
                     return (
                         <div key={index.toString()} className={styles.feature_logo}>
-                            <Image src={logo.logo} alt={index}/>
+                            <Image src={logo.logo} alt={index.toString}/>
                         </div>
                     )
                 })}

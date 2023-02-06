@@ -46,7 +46,7 @@ export default function Header() {
                         {ResponsiveMenu.map((item,index) => { return <li key={index.toString()} className='flex flex-col text-[15px] font-semibold text-[#555555] pb-2'>{item}</li> })}
                     </div>
                     <div onClick={() => setOpen(false)} className='p-1 bg-secondary w-fit h-fit flex'>
-                        <RiCloseFill color={"#fff"} size={'1.5rem'} />
+                        <RiCloseFill color={"#fff"} size={'1.5rem'}  key={index.toString()}/>
                     </div>
                 </div>
                 : ""}
