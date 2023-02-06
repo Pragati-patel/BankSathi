@@ -37,6 +37,7 @@ export default function Footer() {
                         })}
 
                     </div>
+                    
                 </div>
                 <div className={styles.second_col}>
                     <p className={styles.heading}> Important Links :</p>
