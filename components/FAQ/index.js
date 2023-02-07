@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './style.module.scss'
 import strings from '../../string.json'
-import QuestionsAnswers from './questionsAnswers'
+import QuestionsAnswers from './QuestionsAnswers'
 
 export default function FAQ() {
     const FAQData = [
